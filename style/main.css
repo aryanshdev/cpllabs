@@ -274,7 +274,7 @@ vertical-align: middle;
 .footer{
 	font-size: 15px;
 	font-weight: bold;
-
+text-align: center;
 }
 
 @media (min-width: 0px ) and (max-width: 1023px){
