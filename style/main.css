@@ -275,6 +275,8 @@ vertical-align: middle;
 	font-size: 15px;
 	font-weight: bold;
 text-align: center;
+
+bottom: 0;
 }
 
 @media (min-width: 0px ) and (max-width: 1023px){
