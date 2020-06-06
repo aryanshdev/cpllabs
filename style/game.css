@@ -2,7 +2,7 @@
 header {
   position: relative;
   background-color: black;
-  height: 80vh;
+  height: 97vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -44,11 +44,11 @@ header .overlay {
 
 }
 .center h1{
-  font-size: 90px;
+  font-size: 80px;
 }
 .center p{
   font-size: 30px;
-  margin-top: -50px !important;
+  margin-top: -30px !important;
 }
 .center p,h1 {
   text-align: center;
