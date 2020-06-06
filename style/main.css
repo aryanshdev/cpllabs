@@ -282,7 +282,7 @@ bottom: 0;
 @media (min-width: 0px ) and (max-width: 1023px){
 /* Mobile Devices */
 	body{
-		font-size: 45px !important;
+		font-size: 35px !important;
 	}
 	.container{
 		width: 80% !important;
