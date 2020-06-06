@@ -279,6 +279,11 @@ text-align: center;
 bottom: 0;
 }
 
+p, h1 ,h2 ,h3, h4, h5{
+	margin-left: 10;
+	margin-right: 10;
+}
+
 @media (min-width: 0px ) and (max-width: 1023px){
 /* Mobile Devices */
 	body{
