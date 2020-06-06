@@ -275,7 +275,7 @@ vertical-align: middle;
 	font-size: 15px;
 	font-weight: bold;
 text-align: center;
-
+background: #192a56;
 bottom: 0;
 }
 
@@ -313,4 +313,14 @@ p, h1 ,h2 ,h3, h4, h5{
 	.init_section{
 		height: 90vh !important;
 	}
+}
+#count h2 {
+	font-size: 50px;
+	margin: 0;
+}
+
+#count p {
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 2px;
+	margin: 0;
 }

@@ -81,5 +81,27 @@ Welcome to  the official site of CPL Labs. Browse a variety of Softwares offered
 CPL Labs tends to provide Free or Low Cost, Dynamic, Custom Build Softwares. <b>CPL Labs</b> builds <i>Fully customisable - Dynamic</i> Softwares that can be customised according to User's needs. From UI, to Functioning, we at CPL Labs can customise softwares -<b> Just For You and Your Needs</b>.<br><b>Our Softwares are free to use</b>, but if you want to get them Customised,<i> We charge a nominal fee for that </i>!!<br><br></p>
 
 
+
+<section class="footer">
+  	© 2020 CREATORS PVT LTD - Hosted on Github<br>
+    <p>This Page Was Viewed</p>
+<h2 id="count">0</h2>
+<p>Times</p>
+<script>
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/cplsoftwarelabs/homepage/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
+
+</script>
+
 </body>
 </html>
