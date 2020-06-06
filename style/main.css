@@ -12,7 +12,6 @@ body{
 		font-size: 22px;
 }
 
-
 .container{
 	float: none;
 	position: relative;
@@ -275,7 +274,7 @@ vertical-align: middle;
 	font-size: 15px;
 	font-weight: bold;
 text-align: center;
-background: #2d545e;
+background: #000040;
 bottom: 0;
 }
 
@@ -324,4 +323,47 @@ p, h1 ,h2 ,h3, h4, h5{
 	color: rgba(255, 255, 255, 0.8);
 	letter-spacing: 2px;
 	margin: 0;
+}
+
+
+.arrow-container {
+	text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50%;  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 12;
+
+  align-items: center;
+  justify-content: center;
+  animation: ArrowDown 1s infinite;
+  
+}
+
+.arrow{
+	top: 50%;
+	left: 50%;
+  box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 5px 5px 0px;
+  transform: rotate(45deg) translate(-50%, 0%) !important;
+
+}
+
+
+
+@keyframes ArrowDown{
+  0% {
+  
+      padding-top:50px;
+    }
+  50%{
+    padding-top:0px;
+  }
+  100%{
+      padding-top:50px;
+  }
 }

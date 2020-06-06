@@ -2,7 +2,7 @@
 header {
   position: relative;
   background-color: black;
-  height: 95vh;
+  height: 80vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -35,31 +35,6 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.75;
   z-index: 1;
-}
-
-
-.center {
-  height:100%;
-  position: relative;
-
-}
-
-
-.center h1{
-  font-size: 80px;
-}
-.center p{
-  font-size: 30px;
-  margin-top: -30px !important;
-  margin-bottom: 20px !important;
-}
-.center p,h1{
-  text-align: center;
-  margin: 0;
-  position: relative;
-  top: 50%;  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 12;
 }
