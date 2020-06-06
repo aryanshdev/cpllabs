@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
 <link rel="stylesheet" type="text/css" href="style/main.css">
 	<title>
@@ -85,7 +85,7 @@ CPL Labs tends to provide Free or Low Cost, Dynamic, Custom Build Softwares. <b>
 <section class="footer">
   	© 2020 CREATORS PVT LTD - Hosted on Github<br>
     <p>This Page Was Viewed</p>
-<h2 id="count">0</h2>
+<h2 id="count">Unable To Get Count</h2>
 <p>Times</p>
 <script>
 const countEl = document.getElementById('count');
@@ -93,7 +93,7 @@ const countEl = document.getElementById('count');
 updateVisitCount();
 
 function updateVisitCount() {
-	fetch('https://api.countapi.xyz/update/cplsoftwarelabs/homepage/?amount=1')
+	fetch('https://api.countapi.xyz/update/cplsoftwarelabs/homepage?amount=1')
 	.then(res => res.json())
 	.then(res => {
 		countEl.innerHTML = res.value;
@@ -102,6 +102,6 @@ function updateVisitCount() {
 
 
 </script>
-
+</section>
 </body>
 </html>

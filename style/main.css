@@ -275,7 +275,7 @@ vertical-align: middle;
 	font-size: 15px;
 	font-weight: bold;
 text-align: center;
-background: #192a56;
+background: #2d545e;
 bottom: 0;
 }
 
@@ -315,8 +315,9 @@ p, h1 ,h2 ,h3, h4, h5{
 	}
 }
 #count h2 {
-	font-size: 50px;
+	font-size: 40px !important;
 	margin: 0;
+	letter-spacing: 2px;
 }
 
 #count p {

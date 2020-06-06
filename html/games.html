@@ -27,8 +27,26 @@
 </header>
 
 
-  <section class="footer">
-  	© 2020 CREATORS PVT LTD - Hosted on Github
-  </section>
+<section class="footer">
+    © 2020 CREATORS PVT LTD - Hosted on Github<br>
+    <p>This Page Was Viewed</p>
+<h2 id="count">Unable To Get</h2>
+<p>Times</p>
+<script>
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+  fetch('https://api.countapi.xyz/update/cplsoftwarelabs/gamepage/?amount=1')
+  .then(res => res.json())
+  .then(res => {
+    countEl.innerHTML = res.value;
+  })
+}
+
+
+</script>
+</section>
 </body>
 </html>
