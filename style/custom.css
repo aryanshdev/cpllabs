@@ -2,7 +2,7 @@
 header {
   position: relative;
   background-color: black;
-  height: 80vh;
+  height: 95vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -35,6 +35,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.75;
+  opacity: 0.8;
   z-index: 1;
 }
+
