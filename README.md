@@ -16,4 +16,4 @@ Languages Used
 
 All ```Clips (via VideoBlock, Pexels), Image and Names``` (Softwares) Are Property of **CPL Labs**.
 
-![Logo] (https://raw.githubusercontent.com/aryansh-1/cpllabs/master/icon.ico) 
+![Logo](https://github.com/aryansh-1/cpllabs/blob/master/icon.ico?raw=true)
