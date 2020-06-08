@@ -312,6 +312,9 @@ p, h1 ,h2 ,h3, h4, h5{
 	.init_section{
 		height: 90vh !important;
 	}
+	.init_section .text{
+		font-size: 120px !important;
+	}
 }
 #count h2 {
 	font-size: 40px !important;
