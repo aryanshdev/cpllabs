@@ -41,7 +41,7 @@ body{
 
 	height: 400px;
 	display: flex;
-	background: #060c21; /*#060c21*/
+	background: #060c21;
 	justify-content: center;
 	align-items: center;
 	border: 1px solid #000;
