@@ -15,3 +15,5 @@ Languages Used
 2. CSS
 
 All ```Clips (via VideoBlock, Pexels), Image and Names``` (Softwares) Are Property of **CPL Labs**.
+
+![Logo](https://github.com/aryansh-1/cpllabs/blob/master/icon.ico?raw=true)
