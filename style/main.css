@@ -42,7 +42,7 @@ body{
 .container .box{
 	position: relative;
 
-	height: 250px;
+	height: 500px;
 	display: flex;
 	background: #060c21;
 	justify-content: center;
@@ -310,7 +310,7 @@ p, h1 ,h2 ,h3, h4, h5, h6{
 		font-size: 350px !important;
 	}
 	.container .box{
-		height: 500px !important;
+		height: 400px !important;
 	}
 	.init_section{
 		height: 90vh !important;
