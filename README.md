@@ -16,4 +16,5 @@ Languages Used
 
 All ```Clips (via VideoBlock, Pexels), Image and Names``` (Softwares) Are Property of **CPL Labs**.
 
+Get us on PlayStore
 ![Logo](https://github.com/aryansh-1/cpllabs/blob/master/icon.ico?raw=true)
